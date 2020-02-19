@@ -1,0 +1,40 @@
+.cabecalho-home{
+    background: url('../img/pesos.jpg') #000 no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+.cabecalho-home__titulo{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.cabecalho-home__role{
+    display: none;
+}
+.modalidades__titulo{
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.modalidades__titulo::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #0158B3;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.servico{
+    padding: 30px 0;
+}
+.servico__item{
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+.servico__texto{
+    color: #585858;
+}
